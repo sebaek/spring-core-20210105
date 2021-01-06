@@ -13,6 +13,8 @@ public class Main {
 		
 		System.out.println(b1);
 		System.out.println(b2);
+		
+		System.out.println(((Car) b1).getTire());
 	}
 }
 
