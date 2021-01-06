@@ -1,5 +1,14 @@
 package spring_ex2;
 
-public class Main {
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+public class Main {
+	public static void main(String[] args) {
+		ApplicationContext context = 
+				new ClassPathXmlApplicationContext("spring_ex2/context.xml");
+		
+		
+		
+	}
 }
