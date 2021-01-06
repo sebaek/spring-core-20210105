@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<bean id="car" class="spring_ex2.Car">
-		<constructor-arg name="t" ref="tire"></constructor-arg>
+		<constructor-arg name="t" ref="tire1"></constructor-arg>
 	</bean>
-	<bean id="tire" class="spring_ex2.Tire"></bean>
+	<bean id="tire1" class="spring_ex2.Tire"></bean>
 		
 </beans>
