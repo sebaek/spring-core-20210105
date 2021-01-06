@@ -13,5 +13,13 @@ public class Main {
 		
 		Object b2 = context.getBean("tire");
 		System.out.println(b2);
+		
+		Car c1 = (Car) b1;
+		System.out.println(c1.getTire());
 	}
 }
+
+
+
+
+
